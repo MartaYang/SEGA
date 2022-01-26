@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <h4> [paper link TBD]</a>, [Supp link TBD]</a></h4>
+  <h4> <a href=https://openaccess.thecvf.com/content/WACV2022/papers/Yang_SEGA_Semantic_Guided_Attention_on_Visual_Prototype_for_Few-Shot_Learning_WACV_2022_paper.pdf>[Paper link]</a>, <a href=https://openaccess.thecvf.com/content/WACV2022/papers/Yang_SEGA_Semantic_Guided_Attention_on_Visual_Prototype_for_Few-Shot_Learning_WACV_2022_paper.pdf>[Supp link]</a></h4>
 </div>
 
 ## 1. Requirements
@@ -39,6 +39,20 @@ For the 1st stage training, run all cells in `scripts/01_miniimagenet_stage1.ipy
 ## 4. Results
 
 The 1-shot and 5-shot classification results can be found in the corresponding jupyter notebooks.
+
+## Citation
+
+If you find our paper or codes useful, please consider citing our paper:
+
+```bibtex
+@inproceedings{yang2022sega,
+  title={SEGA: Semantic Guided Attention on Visual Prototype for Few-Shot Learning},
+  author={Yang, Fengyuan and Wang, Ruiping and Chen, Xilin},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={1056--1066},
+  year={2022}
+}
+```
 
 ## Acknowledgments
 
