@@ -40,6 +40,10 @@ For the 1st stage training, run all cells in `scripts/01_miniimagenet_stage1.ipy
 
 The 1-shot and 5-shot classification results can be found in the corresponding jupyter notebooks.
 
+## 5. Pre-trained Models
+
+The pre-trained models for all 4 datasets after our first training stage can be downloaded from [here](https://drive.google.com/file/d/1eS49e5Wt5gXnMM7TLso1eS2B04kX8oLh/view?usp=sharing).
+
 ## Citation
 
 If you find our paper or codes useful, please consider citing our paper:
