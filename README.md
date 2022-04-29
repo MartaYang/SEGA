@@ -24,7 +24,7 @@
     * Download and extract it in a certain folder, let's say  `/data/FSLDatasets/tieredImageNet`, then set `_TIERED_IMAGENET_DATASET_DIR` of _data/tiered_imagenet.py_ to this folder.
 * CIFAR-FS [[Google Drive](https://drive.google.com/file/d/1ZTT9EjGoYG0bTtt4W3fcWlw4NjwkaXHb/view?usp=sharing)]
     * Download and extract it in a certain folder, let's say  `/data/FSLDatasets/CIFAR-FS`, then set `_CIFAR_FS_DATASET_DIR` of _data/CIFAR_FS.py_ to this folder.
-* CUB-FS [[Google Drive](https://drive.google.com/file/d/1hbXAVEXqdE7vTvDJpHMUmh5Ok3UU3EG4/view?usp=sharing)]
+* CUB-FS [[Google Drive](https://drive.google.com/file/d/13qzg_yv_uRP5vUprpzLwfYPyi0_R_guo/view?usp=sharing)]
     * Download and extract it in a certain folder, let's say  `/data/FSLDatasets/cub`, then set `_CUB_FS_DATASET_DIR` of _data/CUB_FS.py_ to this folder.
 
 Note: the above datasets are the same as previous works (e.g.  [FewShotWithoutForgetting](https://github.com/gidariss/FewShotWithoutForgetting), [DeepEMD](https://github.com/icoz69/DeepEMD)) EXCEPT that we include **additional semantic embeddings** ([GloVe](https://nlp.stanford.edu/projects/glove/) word embeddings for the first 3 datasets and attributes embeddings for CUB-FS). Thus, remember to change the _argparse arguments_ `semantic_path` in training and testing scripts. 
